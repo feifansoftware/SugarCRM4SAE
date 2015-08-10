@@ -94,6 +94,7 @@ $common = 'install/installCommon.js';
 function getSupportedInstallLanguages(){
 	$supportedLanguages = array(
 	'en_us'	=> 'English (US)',
+	'zh_cn'	=>	'简体中文',
 	);
 	if(file_exists('install/lang.config.php')){
 		include('install/lang.config.php');
